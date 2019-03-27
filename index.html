@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	</head>
+	<body>
+		<header>
+			<div class="top1">
+				<ul id="header_top">
+				<li><a href="Shopping Mall.html">商城</a></li>
+				<li><a href="Meizu.html">魅族</a></li>
+				<li><a href="Meilan.html">魅蓝</a></li>
+				<li><a href="#">Flyme</a></li>
+				<li><a href="#">云服务</a></li>
+				<li><a href="#" onclick="opens()">优惠活动</a></li>
+				<script>
+					var newWin;
+					function opens(){
+						 newWin=window.open("quan.html","优惠活动","width=580,height=800,top=100,left=100")
+					}
+				</script>
+				<li><a href="#">服务支持</a></li>
+				<li><a href="#">社区</a></li>
+				</ul>
+				<span id="header_top_span2"><a href="#">Select Region</a>
+				</span>
+				<span id="header_top_span"><img src="img/download_ec461fd.png" /><a href="#">APP下载</a>
+					<dl class="dl" >
+			  				<dt><a href=""><img src="img/qrcode-3389e5b72a.png" width="200px" height="200px" /></a></dt>
+		  				</dl>
+				</span>
+					<script>var ul = document.getElementById("header_top_span");
+						var a = ul.getElementsByTagName("a");
+						for(var i = 0; i < a.length; i++) {
+							a[i].onmouseover = function(e) {
+								var dl = this.nextElementSibling;
+								dl.style.display = "block";
+							}
+							a[i].onmouseout = function(e) {
+								var dl = this.nextElementSibling;
+								dl.style.display = "none";
+							}
+						}
+					</script>
+			</div>
+			<br />
+			<div class="top2">
+				<ul id="header_top2">
+					<li id="zhuye"><a href="index.html"><img src="img/logo-new_2ea694e.png" class="logo"/></a></li>
+					<li><a href="Meizu.html">魅族手机</a></li>
+					<li><a href="Meilan.html">魅蓝手机</a></li>
+					<li><a href="voice.html">魅族声学</a></li>
+					<li><a href="Intelligence.html">智能·配件</a></li>
+					<li><a href="Life.html">生活周边</a></li>
+					<li><input type="search" placeholder="魅蓝 6T" />
+					<a class="fangda" href="Shopping Mall.html"><img src="img/放大镜.png"/></a></li>
+					<li class="header_top2_login"><a href="Login.html"><img src="img/icon-user_47dae1a.jpg" width="30px" class="yonghu"/></a>
+						<dl class="dl" >
+			  				<dt><a href="">立即注册</a></dt>
+			  				<dt><a href="">立即登陆</a></dt>
+			  				<dt><a href="">我的订单</a></dt>
+			  				<dt><a href="">M码通道</a></dt>
+		  				</dl>
+					</li>
+					<li><img src="img/shopping-cart-gray_c2cb1d5.jpg" class="gouwuche"/></li>
+				</ul>
+			</div>
+		</header>
+		<script>var ul = document.getElementById("header_top2");
+			var a = ul.getElementsByTagName("a");
+			for(var i = 0; i < a.length; i++) {
+				a[i].onmouseover = function(e) {
+			
+					var dl = this.nextElementSibling;
+					dl.style.display = "block";
+				}
+				a[i].onmouseout = function(e) {
+					var dl = this.nextElementSibling;
+					dl.style.display = "none";
+				}
+			}
+		</script>
+		<div id="Body">
+			<div id="Body_top">
+				<div id="box">
+					 <ul id="ul">
+					  <li style='display:block;'><img src="img/1.jpg" alt=""></li>
+					  <li><img src="img/2.jpg" alt=""></li>
+					  <li><img src="img/3.jpg" alt=""></li>
+					  <li><img src="img/5.jpg" alt=""></li>
+					  <li><img src="img/6.jpg" alt=""></li>
+					  <li><img src="img/7.jpg" alt=""></li>
+					 </ul>
+					 <ul id='ol'>
+					  <li class='active'></li>
+					  <li></li>
+					  <li></li>
+					  <li></li>
+					  <li></li>
+					  <li></li>
+					 </ul>
+				 </div>
+				 <div id="Body_top2">
+				<ul id="Body_top2_ul">
+					<li><img src="img/Cgbj0VsRDD-AXZ3xAAB93xOhktw926.jpg" id="img1"/></li>
+					<li><img src="img/Cgbj0VsRDJ2ARB9dAAB36jIRa2s837.jpg" id="img2"/></li>
+					<li><img src="img/34bc6702-f38e-4ee2-95aa-58083664da73.jpg" id="img3"/></li>
+					<li><img src="img/Cgbj0FryjeKAJW4hAAAqvC_hSKg361.jpg" id="img4"/></li>
+				</ul>
+				<script>
+					var img1=document.getElementById("img1");
+					var img2=document.getElementById("img2");
+					var img3=document.getElementById("img3");
+					var img4=document.getElementById("img4");
+					img1.onmouseover = function() {
+						img1.style.boxShadow="10px 10px 1em  5px #D3D3D3";
+					}
+					img1.onmouseout = function() {
+						img1.style.boxShadow="none";
+					}
+					img2.onmouseover = function() {
+						img2.style.boxShadow="10px 10px 1em  5px #D3D3D3";
+					}
+					img2.onmouseout = function() {
+						img2.style.boxShadow="none";
+					}
+					img3.onmouseover = function() {
+						img3.style.boxShadow="10px 10px 1em  5px #D3D3D3";
+					}
+					img3.onmouseout = function() {
+						img3.style.boxShadow="none";
+					}
+					img4.onmouseover = function() {
+						img4.style.boxShadow="10px 10px 1em  5px #D3D3D3";
+					}
+					img4.onmouseout = function() {
+						img4.style.boxShadow="none";
+					}
+				</script>
+				</div>
+			</div>
+				 <script>
+				 	var index = 0;
+					function fun() {
+						var ulLi = document.getElementById("ul").getElementsByTagName("li");
+						var olLi = document.getElementById("ol").getElementsByTagName("li");
+						ulLi[index].setAttribute("style", "display: none;");
+						olLi[index].setAttribute("class", "");
+						index++;
+						if(index == 6) {
+							index = 0;
+						}
+						ulLi[index].setAttribute("style", "display: block;");
+						olLi[index].setAttribute("class", "active");
+					
+					}
+					var timer = setInterval(fun, 1000);
+					var ul = document.getElementById("ul");
+					ul.onmouseover = function() {
+						clearInterval(timer);
+					}
+					ul.onmouseout = function() {
+						timer = setInterval(fun, 1000);
+					}
+				 </script>
+				<ul id="Body_top_ul">
+					<li><a href="Meilan.html">手机</a>
+					</li>
+					<li><a href="Intelligence.html">智能设备</a>
+					</li>
+					<li><a href="Intelligence.html">智能穿戴</a>
+					</li>
+					<li><a href="Intelligence.html">游戏设备</a>
+					</li>
+					<li><a href="voice.html">数码影音</a>
+					</li>
+					<li><a href="Intelligence.html">手机配件/移动电源</a>
+					</li>
+					<li><a href="Intelligence.html">移动存储/办公设备</a>
+					</li>
+					<li><a href="Life.html">生活周边</a>
+					</li>
+				</ul>
+			</div>
+					<script>
+						var ul = document.getElementById("Body_top_ul");
+						var a = ul.getElementsByTagName("a");
+						for(var i = 0; i < a.length; i++) {
+							a[i].onmouseover = function(e) {
+								var dl = this.nextElementSibling;
+								dl.style.display = "block";
+							}
+							a[i].onmouseout = function(e) {
+								var dl = this.nextElementSibling;
+								dl.style.display = "none";
+							}
+							}
+					</script>
+			<div id="Body_cart">
+				<span>
+				<span class="lan">热卖商品</span>
+				<br />
+				<a href="Meizu.html">
+				<ul class="shangpin">
+					<li class="tu"><img src="img/Cgbj0FmSnRiAG8B_AAGt2EgtluQ342.png" width="150px" height="290px"/></li>
+					<li class="name"><span>魅族 PRO7 系列</span></li>
+					<li class="youhui"><span>最高优惠1200元</span></li>
+					<li class="monney"><span>￥1299起</span></li>
+				</ul>
+				</a>
+				<a href="Meilan.html">
+				<ul class="shangpin">
+					<li class="tu"><img src="img/Cgbj0Vna7vWALI3BAAFT7K8z414608.png" width="150px" height="290px"/></li>
+					<li class="name"><span>魅蓝6</span></li>
+					<li class="youhui"><span>领券最高减150元 享3期免息</span></li>
+					<li class="monney"><span>￥599起</span></li>
+				</ul>
+				</a>
+				<a href="Meilan.html">
+				<ul class="shangpin">
+					<li class="tu"><img src="img/Cgbj0Vne27SAbJTvAAFPKVsZjT4521.png" width="150px" height="290px"/></li>
+					<li class="name"><span>魅蓝 Note6</span></li>
+					<li class="youhui"><span>领券最高减200元</span></li>
+					<li class="monney"><span>￥799起</span></li>
+				</ul>
+				</a>
+				<a href="voice.html">
+				<ul class="shangpin">
+					<li class="tu"><img src="img/Cix_s1gcTHCANftiAAErzSizI8c299.png@480x480.png" width="250px" height="250px"/></li>
+					<li class="name"><span><br/><br/>魅族 EP2X耳机</span></li>
+					<li class="youhui"><span>契合声音的流动之美</span></li>
+					<li class="monney"><span>￥89</span></li>
+				</ul>
+				</a>
+				</span>
+				<span id="lan1">
+				<br /><br /><br /><br /><br /><br />
+				<span class="lan1">手机</span>
+				<div><img src="img/Cgbj0VsLsAmAf74oAAF4Dg9fFcg325.jpg"/></div>
+				<div><img src="img/Cgbj0FsWQS2AesAoAAB77w4TJ4o823.jpg"/></div>
+				<div class="lan1_1"><img src="img/Cgbj0VsQ-fqAGY6lAABS1gfjCSA522.jpg"/></div>
+				<div class="lan1_1"><img src="img/Cgbj0VsD83iAba0yAABV-bRyDiU053.jpg"/></div>
+				<a href="Meizu.html">
+				<ul class="shangpin1">
+					<li class="tu"><img src="img/Cgbj0VrxPbKAPw-1AAJWqasMn_A309.png" width="250px" height="250px"/></li>
+					<li class="name"><span>魅族15</span></li>
+					<li class="youhui"><span>最高优惠1200元</span></li>
+					<li class="monney"><span>￥1299起</span></li>
+				</ul>
+				</a>
+				<a href="Meizu.html">
+				<ul class="shangpin1">
+					<li class="tu"><img src="img/Cgbj0FrxPbKAURMmAAJgeOiuUGU292.png" width="250px" height="250px"/></li>
+					<li class="name"><span>魅族15 Puls</span></li>
+					<li class="youhui"><span>领券最高减150元 享3期免息</span></li>
+					<li class="monney"><span>￥599起</span></li>
+				</ul>
+				</a>
+				<a href="Meizu.html">
+				<ul class="shangpin1">
+					<li class="tu"><img src="img/Cgbj0FrcbsCANuv_AAzufmGf2yU449.png@240x240.jpg" width="250px" height="250px"/></li>
+					<li class="name"><span>魅族 M15</span></li>
+					<li class="youhui"><span>领券最高减200元</span></li>
+					<li class="monney"><span>￥799起</span></li>
+				</ul>
+				</a>
+				<a href="Meizu.html">
+				<ul class="shangpin1">
+					<li class="tu"><img src="img/Cgbj0Vl4OYOAGRToAAJwA8hDe5Y164.png" width="250px" height="250px"/></li>
+					<li class="name"><span>魅族 Pro7系列</span></li>
+					<li class="youhui"><span>契合声音的流动之美</span></li>
+					<li class="monney"><span>￥89</span></li>
+				</ul>
+				</a>
+				<a href="Meilan.html">
+				<ul class="shangpin1">
+					<li class="tu"><img src="img/Cgbj0FmdIJmAeVGmAAxAuuJkLGk921.png@480x480.jpg" width="250px" height="250px"/></li>
+					<li class="name"><span>魅蓝 Note6</span></li>
+					<li class="youhui"><span>最高优惠1200元</span></li>
+					<li class="monney"><span>￥1299起</span></li>
+				</ul>
+				</a>
+				<a href="Meilan.html">
+				<ul class="shangpin1">
+					<li class="tu"><img src="img/Cgbj0VnCGzuARl88AAnFI7AK-Xs392.png@480x480.png" width="250px" height="250px"/></li>
+					<li class="name"><span>魅蓝 6</span></li>
+					<li class="youhui"><span>领券最高减150元 享3期免息</span></li>
+					<li class="monney"><span>￥599起</span></li>
+				</ul>
+				</a>
+				<a href="Meilan.html">
+				<ul class="shangpin1">
+					<li class="tu"><img src="img/Cgbj0Vq9-m2AJr_PAAp1B7CA5GY057.png@240x240.jpg" width="250px" height="250px"/></li>
+					<li class="name"><span>魅蓝  E3</span></li>
+					<li class="youhui"><span>领券最高减200元</span></li>
+					<li class="monney"><span>￥799起</span></li>
+				</ul>
+				</a>
+				<a href="Meilan.html">
+				<ul class="shangpin1">
+					<li class="tu"><img src="img/Cgbj0FkAUNWADAgGAAZo5v0_vu8708.png@680x680.png" width="250px" height="250px"/></li>
+					<li class="name"><span>魅蓝 E2</span></li>
+					<li class="youhui"><span>契合声音的流动之美</span></li>
+					<li class="monney"><span>￥89</span></li>
+				</ul>
+				</a>
+				</span>
+				<span id="lan2">
+				<span class="lan2">智能配件</span>
+				<div><img src="img/0ba8f982-cabd-4289-8b23-56482826c02c.jpg"/></div>
+				<div><img src="img/ae9962a0-9391-4ecd-bbb6-bf2ec9768ce7.jpg"/></div>
+				<div class="lan2_2"><img src="img/a188cb9e-7819-44b9-8a18-b2cf3a8e402e.jpg"/></div>
+				<div class="lan2_2"><img src="img/f3e79c7f-fc16-4e9c-8029-e05debcb3f8e.jpg"/></div>
+				<a href="Intelligence.html">
+				<ul class="shangpin2">
+					<li class="tu"><img src="img/Cgbj0FrxRYSAa6YQAABMFFMVjEk568.png"  width="250px" height="250px"/></li>
+					<li class="name"><span>魅蓝双向移动电源</span></li>
+					<li class="youhui"><span>最高优惠1200元</span></li>
+					<li class="monney"><span>￥1299起</span></li>
+				</ul>
+				</a>
+				<a href="Life.html">
+				<ul class="shangpin2">
+					<li class="tu"><img src="img/Cgbj0FqwvJSAEgOEAAlTJ1rcYL0181.png@480x480.png"  width="250px" height="250px"/></li>
+					<li class="name"><span>魅族20寸 酷MA萌 旅行箱</span></li>
+					<li class="youhui"><span>领券最高减150元 享3期免息</span></li>
+					<li class="monney"><span>￥599起</span></li>
+				</ul>
+				</a>
+				<a href="voice.html">
+				<ul class="shangpin2">
+					<li class="tu"><img src="img/Cgbj0Vl22XGAC6YIAAGautlHsjo741.png@480x480.png"  width="250px" height="250px"/></li>
+					<li class="name"><span>魅族 Flow 三单元耳机</span></li>
+					<li class="youhui"><span>领券最高减200元</span></li>
+					<li class="monney"><span>￥799起</span></li>
+				</ul>
+				</a>
+				<a href="voice.html">
+				<ul class="shangpin2">
+					<li class="tu"><img src="img/1459849377-64075.png@480x480.png" width="250px" height="250px"/></li>
+					<li class="name"><span>魅族 EP51蓝牙运动耳机</span></li>
+					<li class="youhui"><span>契合声音的流动之美</span></li>
+					<li class="monney"><span>￥89</span></li>
+				</ul>
+				</a>
+				<a href="voice.html">
+				<ul class="shangpin2">
+					<li class="tu"><img src="img/Cgbj0VrxQ9SAAHYpAACf4yQYHPc137.png"  width="250px" height="250px"/></li>
+					<li class="name"><span>魅族 EP2X耳机</span></li>
+					<li class="youhui"><span>最高优惠1200元</span></li>
+					<li class="monney"><span>￥1299起</span></li>
+				</ul>
+				</a>
+				<a href="Life.html">
+				<ul class="shangpin2">
+					<li class="tu"><img src="img/Cgbj0FsE3Q-AF3WFAABrVtAhjHc596.jpg@240x240.png"  width="250px" height="250px"/></li>
+					<li class="name"><span>乐心智能体脂秤A3-F</span></li>
+					<li class="youhui"><span>领券最高减150元 享3期免息</span></li>
+					<li class="monney"><span>￥599起</span></li>
+				</ul>
+				</a>
+				<a href="voice.html">
+				<ul class="shangpin2">
+					<li class="tu"><img src="img/Cgbj0Fmb55mABV4HAAKspJD9ivQ842.png@480x480.png"  width="250px" height="250px"/></li>
+					<li class="name"><span>魅蓝 EP52蓝牙耳机</span></li>
+					<li class="youhui"><span>领券最高减200元</span></li>
+					<li class="monney"><span>￥799起</span></li>
+				</ul>
+				</a>
+				<a href="voice.html">
+				<ul class="shangpin2">
+					<li class="tu"><img src="img/1453355333-13100.png@480x480.png" width="250px" height="250px"/></li>
+					<li class="name"><span>魅族HD50 头戴式耳机</span></li>
+					<li class="youhui"><span>契合声音的流动之美</span></li>
+					<li class="monney"><span>￥89</span></li>
+				</ul>
+				</a>
+				<a href="Intelligence.html">
+				<ul class="shangpin2">
+					<li class="tu"><img src="img/Cix_s1hGFveAE3RcAAOqzSlfPuA022.png@240x240.png" width="250px" height="250px"/></li>
+					<li class="name"><span>魅族手环</span></li>
+					<li class="youhui"><span>最高优惠1200元</span></li>
+					<li class="monney"><span>￥1299起</span></li>
+				</ul>
+				</a>
+				<a href="Intelligence.html">
+				<ul class="shangpin2">
+					<li class="tu"><img src="img/Cix_s1ij7KeAdy0cAAbboUvsAC4250.png@480x480.png" width="250px" height="250px"/></li>
+					<li class="name"><span>魅族蓝牙小音箱</span></li>
+					<li class="youhui"><span>领券最高减150元 享3期免息</span></li>
+					<li class="monney"><span>￥599起</span></li>
+				</ul>
+				</a>
+				<a href="Intelligence.html">
+				<ul class="shangpin2">
+					<li class="tu"><img src="img/Cgbj0VrcXw2AL0tBAApTh_xwKKk709.png@240x240.png" width="250px" height="250px"/></li>
+					<li class="name"><span>魅族无线充电器</span></li>
+					<li class="youhui"><span>领券最高减200元</span></li>
+					<li class="monney"><span>￥799起</span></li>
+				</ul>
+				</a>
+				<a href="Life.html">
+				<ul class="shangpin2">
+					<li class="tu"><img src="img/CnQOjVfJIReAKnozAAVBTlzLU4U593.png@480x480.png" width="250px" height="250px"/></li>
+					<li class="name"><span>魅蓝 休闲旅行双肩包</span></li>
+					<li class="youhui"><span>契合声音的流动之美</span></li>
+					<li class="monney"><span>￥89</span></li>
+				</ul>
+				</a>
+				</span>
+			</div>
+		</div>
+		<footer>
+			<div class="footer">
+				<div id="footer1">
+					<ul id="footer_top">
+						<li><a href="#"><img src="img/e359f13e-3010-402f-87b0-1b4f9e1abbeb.png"/><span>全场顺丰包邮</span></a></li>
+						<li><a href="#"><img src="img/147d3cc3-b434-46a3-ba03-852ed7e50e40.png"/><span>百城速达</span></a></li>
+						<li><a href="#"><img src="img/ec5aad43-2cd2-49db-ad98-420def128e1f.png"/><span>7天无理由退货</span></a></li>
+						<li><a href="#"><img src="img/d914c51f-1e83-4954-a5ff-623962d408ea.png"/><span>15天换货保障</span></a></li>
+						<li><a href="#"><img src="img/810a9fae-4875-4d08-9403-65bc004c66f4.png"/><span>1年免费保修</span></a></li>
+						<li><a href="#"><img src="img/3ac6ea23-4d1f-472b-9c67-cc343526475c.png"/><span>线下体验店</span></a></li>
+						<li><a href="#"><img src="img/dc023b04-03ff-4f6c-9222-6022aaa90e9c.png"/><span>远程支持服务</span></a></li>
+						<li><a href="#"><img src="img/a794fcd4-888a-408c-8714-2e5c764da09b.png"/><span>上门快修</span></a></li>
+					</ul>
+					<span id="footer_top_rigth">
+						<p class="rigth1" align="right">周一至周日7:30-24:00</p>
+						<p class="rigth2" align="right">400-788-3333</p>
+						<p class="rigth3" align="right"><img src="img/footer_icon_09_60fabcd.png"/><a href="#">在线客服</a></p>
+					</span>
+				</div>
+				<div id="footer2">
+					<ul id="footer_bottom">
+						<li><a href="#">了解魅族</a></li>
+						<li><a href="#">加入我们</a></li>
+						<li><a href="#">联系我们</a></li>
+						<li><a href="#">Flyme</a></li>
+						<li><a href="#">魅族社区</a></li>
+						<li><a href="#">天猫旗舰店</a></li>
+						<li><a href="#">问题反馈</a></li>
+						<li><a href="#">线上销售授权名单公示</a></li>
+						<li><a href="#">出版物经营许可证</a></li>
+						<li class="footer_tu"><img src="img/1c31db15-ab85-4932-8e6c-edfd6039bc60.png" width="15px" height="15px"/><a href="#"><span>简体中文</span></a>
+							<dl class="dl" >
+			  				<dt><a href=""><img src="img/85fba643-95ca-4db1-991c-43e66f108afb.png"width="15px" height="15px"/>繁体中文</a></a></dt>
+			  				<dt><a href=""><img src="img/2ca9de93-02cb-4ded-ab0a-c497dcf06c5a.png"width="15px" height="15px"/>English</a></a></dt>
+			  				<dt><a href=""><img src="img/e743e97c-71af-4853-a91d-bd81c2d3a31c.png"width="15px" height="15px"/>Pyccknn</a></a></dt>
+		  				</dl>
+						</li>
+					</ul>
+								<script>
+	  	var ul=document.getElementById("footer_bottom");
+	  	var a=ul.getElementsByTagName("a");
+	  	for(var i=0;i<a.length;i++){
+	  		a[i].onmouseover=function(e){
+	  			
+	  		     var dl=this.nextElementSibling;
+	  		    dl.style.display="block";
+	  		}
+	  		a[i].onmouseout=function(e){
+	  			 var dl=this.nextElementSibling;
+	  		      dl.style.display="none";
+	  		}
+	  	}
+	  </script>
+					<br />
+					<span id="footer_bottom_2018">©2018&nbsp;&nbsp;Meizu&nbsp;&nbsp;Telecom&nbsp;&nbsp;Equipment&nbsp;&nbsp;Co.,&nbsp;&nbsp;Ltd.&nbsp;&nbsp;All&nbsp;&nbsp;rights&nbsp;&nbsp;reserved.</span>
+					<ul id="footer_bottom1">
+						<li><a href="#">粤ICP备13003602号</a></li>
+						<li><a href="#">合字B2-20170010</a></li>
+						<li><a href="#">营业执照</a></li>
+						<li><a href="#">法律声明</a></li>
+						<li><img src="img/gong.jpg"/><span>粤公网安备 44049102496009 号</span></li>
+						<li><img src="img/xxx.jpg"/></li>
+						<li><img src="img/xx.jpg"/></li>
+						<li><img src="img/x.jpg"/></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+		<div id="to_top">返回顶部</div>
+		<script>
+			window.onload = function(){
+			  var oTop = document.getElementById("to_top");
+			  var screenw = document.documentElement.clientWidth || document.body.clientWidth;
+			  var screenh = document.documentElement.clientHeight || document.body.clientHeight;
+			  oTop.style.left = screenw - oTop.offsetWidth +"px";
+			  oTop.style.top = screenh - oTop.offsetHeight + "px";
+			  window.onscroll = function(){
+			    var scrolltop = document.documentElement.scrollTop || document.body.scrollTop;
+			    oTop.style.top = screenh - oTop.offsetHeight + scrolltop +"px";
+			  }
+			  oTop.onclick = function(){
+			    document.documentElement.scrollTop = document.body.scrollTop =0;
+			  }
+			}  
+		</script>
+	</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/register.css" />
+	</head>
+	<body  onload='createCode()'>
+		<header>
+			<div class="top2">
+				<ul id="header_top2">
+					<li id="zhuye"><a href="index.html"><img src="img/logo-new_2ea694e.png" class="logo" width="85px"/></a></li>
+				</ul>
+			</div>
+		</header>
+		<div id="Body">
+			<div>
+			<img src="img/banner.png"width="100.8%" id="Background" />
+			</div>
+			<form>
+			<span id="denglu">
+				<ul>
+					<li id="a"><a href="register.html" class="left">账号注册</a><a href="#" class="right">|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;手机注册</a></li>
+					<li id="b"><input type="text" placeholder="手机号/Flyme账号 6-20位"  autocomplete="off" id="name"/></li>
+					<li id="b"><input type="password" placeholder="密码 6-20位" id="Password"/></li>
+					<li id="b"><input type="password" placeholder="确认密码6-20位" id="Password1"/></li>
+					<li id="c"><input type="text" placeholder="验证码" id="input"/><input type="button" onclick="createCode()" id="code" title='点击更换验证码'/></li>
+					    <script type='text/javascript'> 
+						    var code ; //在全局定义验证码  
+						       
+						    function createCode(){ 
+						       code = "";  
+						       var codeLength = 4;//验证码的长度  
+						       var checkCode = document.getElementById("code");  
+						       var random = new Array(0,1,2,3,4,5,6,7,8,9,'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R',  
+						       'S','T','U','V','W','X','Y','Z');//随机数  
+						       for(var i = 0; i < codeLength; i++) {//循环操作  
+						        var index = Math.floor(Math.random()*35);//取得随机数的索引（1~35）  
+						        code += random[index];//根据索引取得随机数加到code上  
+						      }  
+						      checkCode.value = code;//把code值赋给验证码  
+						    } 
+						    //校验验证码  
+						    function validate(){
+						    var name=document.getElementById("name").value;
+						    var Password=document.getElementById("Password").value;
+						    var Password1=document.getElementById("Password1").value;
+						      var inputCode = document.getElementById("input").value.toUpperCase(); //取得输入的验证码并转化为大写     
+						      if(inputCode.length <= 0) { //若输入的验证码长度为0  
+						        alert("请输入验证码！"); //则弹出请输入验证码  
+						      }else if(inputCode != code ) { //若输入的验证码与产生的验证码不一致时  
+						        alert("验证码输入错误！@_@"); //则弹出验证码输入错误  
+						        createCode();//刷新验证码  
+						        document.getElementById("input").value = "";//清空文本框  
+						      }else if(name.length>=6&&Password.length>=6&&Password===Password1&&name.length<=20&&Password.length<=20){ //输入正确时  
+						        alert("注册成功"); 
+						        location.replace("Login.html")
+						      }else if(name.length>=6&&Password.length>=6&&Password!==Password1&&name.length<=20&&Password.length<=20&&Password1.length<=20){ //输入正确时  
+						        alert("两次密码输入不相同！");
+						      }else{
+						      	alert("请填写正确的信息")
+						      }
+						    } 
+						</script> 
+					<li id="d"><input type="checkbox" checked="checked"/><a href="#">同意并愿意遵守Flyme服务协议和法律声明</a></li>
+					<li id="e"><input type="button"value="立即注册" onclick = "validate()"/></li>
+					<li id="f"><a href="Login.html" class="left">登录</a><a href="#" class="right">忘记密码？</a></li>
+				</ul>
+			</span>
+			</form>
+		</div>
+		<footer id="footer">
+			<div id="footer_top">
+				<ul id="footer_ul">
+					<li><a href="#">关于魅族&nbsp;&nbsp;|</a></li>
+					<li><a href="#">工作机会&nbsp;&nbsp;|</a></li>
+					<li><a href="#">联系我们&nbsp;&nbsp;|</a></li>
+					<li><a href="#">法律声明&nbsp;&nbsp;|</a></li>
+					<li><a href="#">常见问题&nbsp;&nbsp;|</a></li>
+					<li><a href="#">简体中文</a></li>
+					<li id="kefu">客服热线</li>
+					<li id="num">400-788-3333</li>
+					<li><button>在线客服</button></li>
+				</ul>
+				<br />
+				<ul id="footer_ul1">
+					<li>©2018 Meizu Telecom Equipment Co., Ltd. All rights reserved.</li>
+					<li><a href="#"> 备案号: 粤ICP备13003602号-4</a></li>
+					<li><a href="#">经营许可证编号: 粤B2-20130198</a></li>
+					<li><a href="#">营业执照</a></li>
+					<li><img src="img/gong.jpg"/><a href="#" id="gong">粤公网安备 44049102496076号</a></li>
+				</ul>
+			</div>
+		</footer>
+	</body>
+</html>

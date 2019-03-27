@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			body{
+				background: #aaa;
+			}
+			#quan{
+				padding-left: 40px;
+				padding-top: 25px;
+				width: 500px;
+				height: 200px;
+				background: white;
+			}
+			#box{
+				float: left;
+				border-left: 3px dotted white;
+				margin: 0px auto;
+				width: 300px;
+				height: 160px;
+				background: red;
+			}
+			#box p{
+				padding-top: 5px;
+				font-family: Helvetica, Tahoma, Arial, "Hiragino Sans GB", "Microsoft YaHei", SimSun, Heiti, sans-serif;
+				padding-left: 35px;
+				font-size: 27px;
+				text-align: left;
+				color: white;
+			}
+			#box2{
+				border-left: 2px dashed white;
+				float: left;
+				border-right: 3px dotted white;
+				margin: 0px auto;
+				width: 150px;
+				height: 160px;
+				background:  #FF0000;
+			}
+			#box2 p{
+				font-family: Helvetica, Tahoma, Arial, "Hiragino Sans GB", "Microsoft YaHei", SimSun, Heiti, sans-serif;
+				padding-top: 10px;
+				font-size: 20px;
+				text-align: center;
+				color: white;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="quan">
+			<a href="#" onclick="quan()">
+			<div id="box">
+				<p>￥10.00</p>
+				<p>满50.00可以使用</p>
+			</div>
+			<div id="box2">
+				<p>截止日期</p>
+				<p>2018-07-13</p>
+			</div>
+			</a>
+		</div>
+		<div id="quan" onclick="quan()">
+			<a href="#">
+			<div id="box"style="background: #35e35a;">
+				<p>￥30.00</p>
+				<p>满100.00可以使用</p>
+			</div>
+			<div id="box2"style="background: #35e35a;">
+				<p>截止日期</p>
+				<p>2018-07-13</p>
+			</div>
+		</div><div id="quan" onclick="quan()">
+		<a href="#">
+			<div id="box"style="background-color:#00BFFF">
+				<p>￥50.00</p>
+				<p>满200.00可以使用</p>
+			</div>
+			<div id="box2"style="background-color: #00BFFF">
+				<p>截止日期</p>
+				<p>2018-07-13</p>
+			</div>
+		</div><div id="quan" onclick="quan()">
+			<a href="#">
+			<div id="box"style="background:  blueviolet;">
+				<p>￥150.00</p>
+				<p>满300.00可以使用</p>
+			</div>
+			<div id="box2"style="background: blueviolet;">
+				<p>截止日期</p>
+				<p>2018-07-13</p>
+			</div>
+		</div><div id="quan" onclick="quan()">
+			<a href="#">
+			<div id="box" style="background: deepskyblue;">
+				<p>￥200.00</p>
+				<p>满500.00可以使用</p>
+			</div>
+			<div id="box2"style="background: deepskyblue;">
+				<p>截止日期</p>
+				<p>2018-07-13</p>
+			</div>
+		</div>
+		<script>
+			function quan(){
+				alert("领取成功");
+				window.close();
+			}
+		</script>
+	</body>
+</html>

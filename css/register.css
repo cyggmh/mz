@@ -1,0 +1,212 @@
+*{
+
+	color: #515151;
+	font-family: Helvetica, Tahoma, Arial, "Hiragino Sans GB", "Microsoft YaHei", SimSun, Heiti, sans-serif;
+}
+* li{
+	list-style: none;   
+}
+* a{
+	text-decoration: none;
+}
+body{
+	
+	height: 1100px;
+	width: 100%;
+	background-color: #f4f4f4
+}
+
+#header_top2 a{
+	text-decoration: none;
+}
+
+#header_top2 a:hover{
+	color:  deepskyblue;
+}
+#header_top2 #zhuye{
+	position: relative;
+	top: -10px;
+	left: 150px;
+}
+#header_top2{
+	position: relative;
+	top: 30px;
+	right: 100px;
+}
+#header_top2 li{
+	list-style: none;
+	position: relative;
+	left: 260px;
+	float: left;
+	top: 35px;
+	font-size: 14px;
+	width: 75px;
+}
+.top2{
+	width:  100.8%;
+	left: -6px;
+	position: relative;
+	top: -49px;
+	background:  #FFFFFF;
+	height: 82px;
+}
+#header_top2 .logo{
+	float: left;
+	position: relative;
+	top: 30px;
+	left: 190px;
+}
+#Background{
+	z-index: 0px;
+
+}
+#Body{
+	overflow: hidden;
+position: relative;
+bottom: 49px;
+}
+#footer{
+	font-size: 12px;
+	position: absolute;
+	bottom: -410px;
+	width: 100.8%;
+	height: 150px;
+	background: white;
+}
+#footer_ul li{
+	color: #000000;
+	position: relative;
+	left: 500px;
+	top: 50px;
+	float:left;
+	margin-right: 10px;
+}
+#footer_ul li a{
+	color: #000000;
+}
+#footer_ul button{
+	border: 0px;
+	background: #00BFFF;
+	color:white;
+}
+#footer_ul #kefu{
+	margin-left: 50px;
+	margin-right: 30px;
+}
+#footer_ul #num{
+	position: relative;
+	top: 53px;
+	margin-right: 30px;
+}
+#footer_ul1 li{
+	position: relative;
+	left: 400px;
+	top: 70px;
+	float:left;
+	margin-right: 10px;
+}
+#footer_ul1 li a:hover{
+	color: #000000;
+}
+#footer_ul1 #gong{
+	position: relative;
+	bottom: 3px;
+}
+#denglu ul{
+	z-index: 1px;
+	width: 280px;
+	height: 520px;
+	background: white;
+	position: absolute;
+	bottom: 350px;
+	left: 1300px;
+}
+#denglu li{
+	position: relative;
+	top: 100px;
+}
+#denglu #a{
+	font-size: 16px;
+	position: relative;
+	top: 40px;
+	left: 10px;
+}
+#denglu #a .left{
+	color: #00BFFF;
+	margin-right: 20px;
+}
+#denglu #a .right{
+	color: #999;
+	margin-left: 20px;
+}
+#denglu #a a:hover{
+	color:  cornflowerblue;
+}
+#denglu #b input{
+	width: 230px;
+	height: 25px;
+	color: black;
+	margin-bottom: 20px;
+	border: 1px solid #D3D3D3;
+	border-radius: 3%;
+	padding: 5px;
+	font-size: 12px;
+}
+#denglu #c input{
+	width: 115px;
+	height: 25px;
+	color: black;
+	margin-bottom: 20px;
+	border: 1px solid #D3D3D3;
+	border-radius: 2%;
+	padding: 5px;
+	font-size: 12px;
+}
+#denglu #c #code{
+	width: 115px;
+	height: 35px;
+	color: #00BFFF;
+	background: #F4F4F4;
+	border: 1px solid #D3D3D3;
+	border-radius: 3%;
+	padding: 8px;
+	font-size: 14px;
+	font-weight: bold;
+}
+#denglu #d input{
+	position: relative;
+	top: 4px;
+	border: 1px solid #AAAAAA;
+	background-color:#FFFFFF;
+	width: 18px;
+	height: 18px;
+}
+#denglu #d a{
+	color: #999999;
+	font-size: 13px;
+}
+#denglu #d a:hover{
+	color: black;
+}
+#denglu #e input{
+	position: relative;
+	top: 20px;
+	width: 245px;
+	height: 35px;
+	color: white;
+	background:#32a5e7;
+	border: 0px;
+	border-radius: 3px;
+}
+#denglu #f a{
+	position: relative;
+	top:50px;
+	color: #00BFFF;
+}
+#denglu #f a:hover{
+	color: #6495ED;
+}
+#denglu #f .right{
+	position: relative;
+	left:150px;
+}
